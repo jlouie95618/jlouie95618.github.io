@@ -6,9 +6,23 @@ div {
 
 }
 
+p {
+
+}
+
 #circle {
-	border-radius: 50%;
+	/* Circle Elements */
+	border-radius: 50%;	
 	height: 100px;
 	width: 100px;
-	background-color: #FF0000;
+
+	/* Formatting the Circle */
+	border: 3px solid #FF0000;
+	/*border-color: #FF0000;*/
+	background-color: #CC0000;
 }
+
+.about_me {
+
+}
+
