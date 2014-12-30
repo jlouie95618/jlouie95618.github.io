@@ -19,7 +19,7 @@ html {
 }
 
 * {
-	font-family: Papyrus
+
 }
 
 div {
@@ -34,11 +34,14 @@ div {
 	margin-right: auto;
 
 	/* Attempting to center vertically */
-	padding-top: 30%;
+	padding-top: 35%;
 	padding-bottom: 30%;
 
 	/* Modifying text size */
-	font-size: 25px
+	font-size: 25px;
+	font-family: Arial Narrow;
+	font-weight: lighter;
+	color: #191919;
 }
 
 #circle {
@@ -48,9 +51,14 @@ div {
 	width: 100px;
 
 	/* Formatting the Circle */
-	border: 1px solid #FF0000;
+
+	/*border: .5px solid #F20000;*/
 	/*border-color: #FF0000;*/
-	background-color: #CC0000;
+	/*background-color: #990000;*/
+
+	background: -moz-radial-gradient(circle, #990000, #FF0000);
+	background: -webkit-radial-gradient(circle, #990000, #FF0000);
+	background: radial-gradient(circle, #990000, #FF0000);
 
 	/* Fixing elements and centering in page */
 	position: fixed;
@@ -58,44 +66,64 @@ div {
 	left: 50%;
 }
 
+#txt_shadow {
+	text-shadow: -1px 1px 2px #595959;
+}
+
+/* Original start position: TOP: -50px and LEFT: -50px; */
+
+/* Center top */
 .about_me {
 	margin-top: -200px;
 	margin-left: -50px;
 
 }
 
+/* Left side */
+
 .code {
-	margin-top: -50px;
-	margin-left: -50px;
+	margin-top: -145px;
+	margin-left: -180px;
 }
 
-.books {
-	margin-top: -50px;
-	margin-left: -50px;
+.tutoring {
+	margin-top: -10px;
+	margin-left: -200px;
 
 }
 
 .blog {
-	margin-top: -50px;
-	margin-left: -50px;
+	margin-top: 100px;
+	margin-left: -120px;
 
+}
+
+/* Right side */
+
+.photos {
+	margin-top: -145px;
+	margin-left: 80px;
 
 }
 
 .music {
-	margin-top: -50px;
-	margin-left: -50px;
+	margin-top: -10px;
+	margin-left: 100px;
 
 }
 
-.photos {
-	margin-top: -50px;
-	margin-left: -50px;
+.books {
+	margin-top: 100px;
+	margin-left: 20px;
 
 }
 
-.tutoring {
-	margin-top: -50px;
-	margin-left: -50px;
-
-}
+/*.tester {
+	width: 200px;
+	height: 200px;
+	
+	background-image: -moz-radial-gradient(45px 45px 45deg, circle cover, red 0%, orange 100%, red 95%);
+	background-image: -webkit-radial-gradient(45px 45px, circle cover, #990000, #F20000);
+	background-image: radial-gradient(45px 45px 45deg, circle cover, red 0%, orange 100%, red 95%);
+	
+}*/
