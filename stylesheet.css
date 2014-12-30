@@ -17,7 +17,7 @@ p {
 	width: 100px;
 
 	/* Formatting the Circle */
-	border: 3px solid #FF0000;
+	border: 3px solid black;
 	/*border-color: #FF0000;*/
 	background-color: #CC0000;
 }
