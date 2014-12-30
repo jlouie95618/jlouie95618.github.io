@@ -19,7 +19,7 @@ html {
 }
 
 * {
-	font-family: Arial
+	font-family: Papyrus
 }
 
 div {
@@ -34,9 +34,11 @@ div {
 	margin-right: auto;
 
 	/* Attempting to center vertically */
-	/*vertical-align: middle;*/
-	padding-top: 40%;
+	padding-top: 30%;
 	padding-bottom: 30%;
+
+	/* Modifying text size */
+	font-size: 25px
 }
 
 #circle {
