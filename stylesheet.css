@@ -1,13 +1,42 @@
+/*
+Notes:
+#inner {
+    display: table;
+    margin: 0 auto;
+
+    OR
+
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+*/
+
+
+html {
+	background-color: #333333;
+}
+
 * {
 	font-family: Arial
 }
 
 div {
-
+	
 }
 
-p {
+#inner_text {
+	display: table;
 
+	/* Centering text horizontally */
+	margin-left: auto;
+	margin-right: auto;
+
+	/* Attempting to center vertically */
+	/*vertical-align: middle;*/
+	padding-top: 40%;
+	padding-bottom: 30%;
 }
 
 #circle {
@@ -17,12 +46,54 @@ p {
 	width: 100px;
 
 	/* Formatting the Circle */
-	border: 3px solid #FF0000;
+	border: 1px solid #FF0000;
 	/*border-color: #FF0000;*/
 	background-color: #CC0000;
+
+	/* Fixing elements and centering in page */
+	position: fixed;
+	top: 50%;
+	left: 50%;
 }
 
 .about_me {
+	margin-top: -200px;
+	margin-left: -50px;
 
 }
 
+.code {
+	margin-top: -50px;
+	margin-left: -50px;
+}
+
+.books {
+	margin-top: -50px;
+	margin-left: -50px;
+
+}
+
+.blog {
+	margin-top: -50px;
+	margin-left: -50px;
+
+
+}
+
+.music {
+	margin-top: -50px;
+	margin-left: -50px;
+
+}
+
+.photos {
+	margin-top: -50px;
+	margin-left: -50px;
+
+}
+
+.tutoring {
+	margin-top: -50px;
+	margin-left: -50px;
+
+}
