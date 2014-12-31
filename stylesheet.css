@@ -11,19 +11,18 @@ Notes:
 }
 
 
-*/
+/********************************/
 
-
-html {
-	background-color: #333333;
+body {
+	background-color: #212121;
 }
 
 * {
-
+	
 }
 
 div {
-	
+
 }
 
 #inner_text {
@@ -45,10 +44,15 @@ div {
 }
 
 #circle {
+	display: block;
+
 	/* Circle Elements */
 	border-radius: 50%;	
 	height: 100px;
 	width: 100px;
+	text-align: center;
+	/*line-height: 100px;*/
+	box-shadow: 0px 3px 8px #191919, inset 0px 2px 3px #292929;
 
 	/* Formatting the Circle */
 
@@ -56,14 +60,20 @@ div {
 	/*border-color: #FF0000;*/
 	/*background-color: #990000;*/
 
-	background: -moz-radial-gradient(circle, #990000, #FF0000);
-	background: -webkit-radial-gradient(circle, #990000, #FF0000);
-	background: radial-gradient(circle, #990000, #FF0000);
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#800000), to(#AA0000));
+	background-image: -webkit-linear-gradient(top, #800000, #AA0000); 
+	background-image: -moz-linear-gradient(top, #800000, #AA0000); 
+	background-image: -ms-linear-gradient(top, #800000, #AA0000); 
+	background-image: -o-linear-gradient(top, #800000, #AA0000); 
 
 	/* Fixing elements and centering in page */
 	position: fixed;
 	top: 50%;
 	left: 50%;
+}
+
+#circle:hover {
+	background: #B00000;
 }
 
 #txt_shadow {
@@ -118,12 +128,14 @@ div {
 
 }
 
-/*.tester {
+.tester {
 	width: 200px;
 	height: 200px;
 	
 	background-image: -moz-radial-gradient(45px 45px 45deg, circle cover, red 0%, orange 100%, red 95%);
 	background-image: -webkit-radial-gradient(45px 45px, circle cover, #990000, #F20000);
 	background-image: radial-gradient(45px 45px 45deg, circle cover, red 0%, orange 100%, red 95%);
+
+	opacity: .6;
 	
-}*/
+}
