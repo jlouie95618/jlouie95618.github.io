@@ -1,17 +1,4 @@
-/*
-Notes:
-#inner {
-    display: table;
-    margin: 0 auto;
-
-    OR
-
-    width: 50%;
-    margin: 0 auto;
-}
-
-
-/********************************/
+/* CSS document to accompany index.html */
 
 body {
 	background-color: #212121;
