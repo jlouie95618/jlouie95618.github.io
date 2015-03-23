@@ -25,9 +25,12 @@ var main = function() {
 	        callback: function() {
 	        	$(".typing-2").delay(2000).fadeOut(1000)
 	        	$(".cover").fadeOut(3000)
-	        	$("nav").fadeIn(10000)
 	        },
 		});
+
+    	$("nav").delay(7000).fadeIn(3000)
+
+    	// $("slideshow").delay(7000).fadeIn(3000)
 
 	});
 }
