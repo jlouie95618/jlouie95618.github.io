@@ -3,6 +3,7 @@
 var main = function() {
 	$(function(){
     	$("nav").hide()
+       	$("#carousel").hide()
 		$(".typing").typed({
 			strings: ["Hello, my name is John"],
 			// typing speed
@@ -30,7 +31,7 @@ var main = function() {
 
     	$("nav").delay(7000).fadeIn(3000)
 
-    	// $("slideshow").delay(7000).fadeIn(3000)
+    	$("#carousel").delay(7000).fadeIn(3000)
 
 	});
 }
