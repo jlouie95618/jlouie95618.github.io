@@ -42,9 +42,10 @@
 					</ul>
 					<ul class="nav navbar-nav navbar-right">
 						<li><a href = "music.html">Music:</a></li>
-						<li><a href = "#"><span class="glyphicon glyphicon-play" aria-hidden="true"></span></a></li>
-						<li><a href = "#"><span class="glyphicon glyphicon-pause" aria-hidden="true"></span></a></li>
-						<li><a href = "#"><span class="glyphicon glyphicon-step-forward" aria-hidden="true"></span></a></li>
+						<li><a onclick = "document.getElementById('audio').play()"><span class="glyphicon glyphicon-play" aria-hidden="true"></span></a></li>
+						<li><a onclick = "document.getElementById('audio').pause()"><span class="glyphicon glyphicon-pause" aria-hidden="true"></span></a></li>
+						<li><a onclick = "document.getElementById('audio').volume+=0.1"><span class="glyphicon glyphicon-volume-up" aria-hidden="true"></span></a></li>
+						<li><a onclick = "document.getElementById('audio').volume-=0.1"><span class="glyphicon glyphicon-volume-down" aria-hidden="true"></span></a></li>
 					</ul>
 				</div>
 			</div>
@@ -169,4 +170,19 @@
 
 
 	</body>
+
+
+	<footer>
+		<div id = "footer">
+			<div class = "container-fluid">
+				<center><p style = "color: white;"><!-- &copy; John Louie<br> -->Website designed and created by John Louie</p></center>
+			</div>
+		</div>
+
+		<audio id = "audio" src = "fav_song.mp3">
+			<p>Your browser does not support audio!</p>
+		</audio>
+	</footer>
+
+
 </html>
