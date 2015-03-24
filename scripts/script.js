@@ -33,6 +33,22 @@ var main = function() {
 
     	$("#carousel").delay(7000).fadeIn(3000)
 
+   //  	$("div").filter(column).click(function(event) {
+   //  	var target = $(event.target);
+   //  	if (!target.is("div" + column + ".blue")) {
+   //  		$(this).addClass("blue");
+   //  		counter++;
+			// if (counter == 7) {
+			// 	switchSmallSquare(true);
+			// }
+	  //   	events.push(target);
+   //  	};
+	  //   if (events.length == 7) {
+	  //   	triggerReverse(events);
+			// switchSmallSquare(false);
+	  //   }
+   //  });
+
 	});
 }
 
