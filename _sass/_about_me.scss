@@ -1,0 +1,14 @@
+
+
+img.me {
+    height: 450px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    float: right;
+    @include media-query($on-mobile) {
+        float: none;
+        display: block;
+        margin: 0 auto;
+    }
+}

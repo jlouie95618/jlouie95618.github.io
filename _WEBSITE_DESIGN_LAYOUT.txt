@@ -1,0 +1,332 @@
+Outline:
+ - Pages
+     - Homepage/Index
+         - About Me
+         - Blog 
+             - Posts: What do you think?... BLOG POSTS OBVI...
+         - Code
+             - Posts: explanation of the code that I've written, include code snippets, etc
+         - Contact
+         - Music
+             - Posts: Artists, Albums, Songs, Genres and different things I have to say about them
+         - Photo
+             - Posts: Posts contain images, any explanation if necessary, etc.
+         - Projects
+             - Posts: explanation of the different projects
+                 - 90 Days - cheat sheets condensing different topics that I've learned over 90 days
+                 - various photo projects
+                 - Writing Projects/creative writing
+                 - Any art, that I may feel the need to share...
+         - Tutoring
+
+----------------------------------------------------------------
+
+Setup:
+
+Default
+    html
+        head
+        body
+            div - page
+                div - header
+                div - content
+                div - footer
+
+Blog - Page
+    html
+        head - include Quattrocento font
+        body
+            div - page-blog
+                div - content
+                    div - blog-title
+                    div - blog-dropdown
+                        div - archive
+                        div - topics
+                        div - about
+                    div - blog-page-title
+                    div - blog-content
+                    div - blog-bottom-options
+                        div - blog-date
+                        div - blog-comments
+                        div - blog-social-media
+
+Blog - Post
+    html
+        head - include Quattrocento font
+        body
+            div - post-blog
+                div - content
+                    div - blog-page-title
+                    div - blog-content
+                    div - blog-bottom-options
+                        div - blog-date
+                        div - blog-comments
+                        div - blog-social-media
+
+
+Code
+    Default
+        ...
+        div - content
+            div - code-
+
+
+Music
+    Default
+        ...
+        div - content
+
+Photo
+    Default
+        ...
+        div - content
+
+
+Projects
+    Default
+        ...
+        div - content
+
+----------------------------------------------------------------
+
+Jekyll Structure:
+
+_config.yml
+
+_drafts
+    N/A
+
+_includes
+    head - DONE
+    head-blog - DONE
+    header - DONE
+    footer - DONE
+
+_layouts
+    default-page - DONE
+        table-of-contents - how does one make these?
+        default-post   
+    blog-page
+        blog-post
+            blog-entry
+        table-of-contents - how does one make these?
+        list-of-topics - how does one make these?
+
+_posts
+    N/A
+
+_data
+
+_site
+
+_sass
+
+css
+    vendor
+
+js
+    vendor
+
+attachments
+    images
+    music
+    documents
+
+----------------------------------------------------------------
+
+FONTS:
+    Quattrocento
+    Raleway
+
+----------------------------------------------------------------
+
+STYLES:
+
+    main.scss
+        _base.scss
+        _layout.scss
+        _posts.scss
+            _blog.scss
+        _page.scss
+            _about_me.scss
+            _blog.scss
+            _code.scss
+            _contact.scss
+            _music.scss
+            _photos.scss
+            _projects.scss
+            _tutoring.scss
+
+
+----------------------------------------------------------------
+----------------------------------------------------------------
+----------------------------------------------------------------
+
+First J Attempt:
+
+<svg width="639.9999999999999" height="480" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+
+ <g>
+  <title>Layer 1</title>
+  <path d="m345.015015,202.132996c496.541992,-89.254997 -193.02002,74.377014 -193.02002,74.377014c0,0 235.429016,17.622986 193.02002,-74.377014z" stroke="#000000" transform="rotate(139.23741149902344 338.3919982910156,226.67749023437503) " id="svg_1" stroke-width="5" fill="#ffffff"/>
+ </g>
+</svg>
+
+Second J Attempt: 
+
+<svg width="640" height="480" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+ <g>
+  <title>Layer 1</title>
+  <path id="svg_1" d="m285,218c0,0 -30,-104 -2,-103c28,1 -1,258 -17,220c-16,-38 6,-111 66,-160" stroke-width="5" stroke="#000000" fill="#ffffff"/>
+ </g>
+</svg>
+
+Third J Attempt:
+
+<svg width="640" height="480" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+ <g>
+  <title>Layer 1</title>
+  <path d="m285,219c0,0 -29,67 -2,-103c27,-170 -1,258 -17,220c-16,-38 6,-111 66,-160" id="svg_1" stroke-width="5" stroke="#000000" fill="#ffffff"/>
+ </g>
+</svg>
+
+First L Attempt:
+
+<svg width="640" height="480" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+ <g>
+  <title>Layer 1</title>
+  <path d="m283,153c0,0 56,22 54,-6c-2,-28 -132,204 -93,79c39,-125 48,6 50,54" id="svg_1" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" stroke="#000000" fill="#ffffff"/>
+ </g>
+</svg>
+
+Second L Attempt: 
+
+<svg width="640" height="480" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+ <g>
+  <title>Layer 1</title>
+  <path id="svg_2" d="m288,186c0,0 223,172 193,27c-30,-145 -212,376 -204,169c8,-207 131,-52 131,-52" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" stroke="#000000" fill="#ffffff"/>
+ </g>
+</svg>
+
+Third L Attempt:
+
+<svg width="640" height="480" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+ <g>
+  <title>Layer 1</title>
+  <path transform="rotate(43.69990921020508 309.26031494140625,220.65060424804688) " id="svg_2" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" stroke="#000000" fill="#ffffff"/>
+  <path stroke="#000000" d="m362.37796,241.86169c0,0 216.96542,51.01682 220.6124,11.33707c3.64703,-39.67975 -431.81145,46.08765 -429.98795,2.21812c1.82349,-43.86954 231.25879,20.94893 231.25879,20.94893" id="svg_3" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" fill="#ffffff"/>
+ </g>
+</svg>
+
+Fourth L Attempt: 
+
+<svg width="640" height="480" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+ <g>
+  <title>Layer 1</title>
+  <path transform="rotate(43.69990921020508 309.26031494140625,220.65060424804688) " id="svg_2" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" stroke="#000000" fill="#ffffff"/>
+  <path transform="rotate(32.588287353515625 357.15994262695324,219.7517700195312) " d="m346.09698,197.203c0,0 173.68402,-4.349 149.41202,-42.974c-24.271,-38.62501 -253.146,162.315 -277.661,123.71298c-24.51401,-38.60098 150.132,-46.23499 150.132,-46.23499" stroke="#000000" id="svg_3" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" fill="#ffffff"/>
+ </g>
+</svg>
+
+Fifth L Attempt:
+
+<svg width="640" height="480" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+ <g>
+  <title>Layer 1</title>
+  <path fill="#ffffff" stroke="#000000" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" id="svg_2" transform="rotate(43.69990921020508 309.26031494140625,220.65060424804688) "/>
+  <path stroke="#000000" fill="#ffffff" stroke-width="3" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" id="svg_3" d="m335.43506,97.84077c0,0 291.9162,55.98485 258.39984,14.52248c-33.51477,-41.46207 -454.40669,52.13739 -488.33463,10.61118c-33.92648,-41.52496 260.21152,11.97398 260.21152,11.97398"/>
+ </g>
+</svg>
+
+Sixth L Attempt: fine tuning
+
+<svg width="640" height="480" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+ <g>
+  <title>Layer 1</title>
+  <path transform="rotate(43.69990921020508 309.26031494140625,220.65060424804688) " id="svg_2" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" stroke="#000000" fill="#ffffff"/>
+  <path transform="rotate(36.594970703125 299.4106750488281,274.88714599609375) " d="m284.4697,255.53033c0,0 122.58774,-4.12415 95.78021,-40.98726c-26.66837,-35.46762 -125.86905,160.72411 -159.7972,119.19792c-33.92664,-41.52594 94.29372,-41.103 94.29372,-41.103" id="svg_3" stroke-linecap="null" stroke-linejoin="null" stroke-width="3" fill="#ffffff" stroke="#000000"/>
+ </g>
+</svg>
+
+Seventh L Attempth: Pretty even on both sides now
+
+<svg width="640" height="480" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+ <g>
+  <title>Layer 1</title>
+  <path transform="rotate(43.69990921020508 309.26031494140625,220.65060424804688) " id="svg_2" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" stroke="#000000" fill="#ffffff"/>
+  <path d="m298.28754,263.52313c0,0 198.30637,46.74277 199.19717,16.20779c-0.52496,-29.72882 -394.09163,30.38208 -393.77612,0.29251c-0.15483,-30.24985 198.87683,15.55182 198.87683,15.55182" id="svg_3" stroke-linecap="null" stroke-linejoin="null" stroke-width="3" fill="#ffffff" stroke="#000000"/>
+ </g>
+</svg>
+
+Idea for Stylized Chinese Surname?...
+
+<svg width="639.9999999999999" height="480" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+ <g>
+  <title>Layer 1</title>
+  <path transform="rotate(43.69990921020508 309.26031494140625,220.65060424804688) " id="svg_2" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" stroke="#000000" fill="#ffffff"/>
+  <path transform="rotate(85 345.9823913574218,287.8921813964845) " id="svg_1" d="m348.8165,273.24472c0,0 -4.64462,49.32889 0.7146,19.96436c5.19293,-28.61996 -12.34155,20.59662 -7.07047,-8.35229c5.29056,-29.11226 0.82367,19.32605 0.82367,19.32605" stroke-linecap="null" stroke-linejoin="null" fill="none" stroke="#000000"/>
+ </g>
+</svg>
+
+Slightly altered?:
+
+<svg width="640" height="480" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+ <g>
+  <title>Layer 1</title>
+  <path transform="rotate(43.69990921020508 309.26031494140625,220.65060424804688) " id="svg_2" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" stroke="#000000" fill="#ffffff"/>
+  <path id="svg_1" d="m608.180786,245.307114c0,0 -782.482803,189.566971 -258.853973,181.052963c509.673798,-9.520935 -558.59494,-339.170914 -42.651031,-348.057961c518.625732,-9.35041 -247.637543,180.568794 -247.637543,180.568794" stroke-linecap="null" stroke-linejoin="null" fill="none" stroke="#000000"/>
+ </g>
+</svg>
+
+----------------------------------------------------------------
+----------------------------------------------------------------
+----------------------------------------------------------------
+
+Sites/Sources: 
+ - http://thesassway.com/beginner/how-to-structure-a-sass-project
+ - http://sass-lang.com/guide
+ - http://learnlayout.com/clearfix.html
+ - http://stackoverflow.com/questions/13608855/what-does-an-before-a-pseudo-element-in-css-mean
+ - http://matthewjamestaylor.com/blog/keeping-footers-at-the-bottom-of-the-page
+ - http://cssreset.com/how-to-keep-footer-at-bottom-of-page-with-css/
+ - https://css-tricks.com/snippets/css/sticky-footer/
+ - https://pixelsvsbytes.com/2011/09/sticky-css-footers-the-flexible-way/
+ - https://pixelsvsbytes.com/examples/sticky-footers-the-flexible-way/simple.html?phpMyAdmin=0ZRJj6JUwx3do5nBBGsib-MdEm7
+ - http://thesassway.com/intermediate/responsive-web-design-in-sass-using-media-queries-in-sass-32
+ - http://stackoverflow.com/questions/14012105/how-to-animate-css-translate
+ - http://jsfiddle.net/ignaciocorreia/R3EaJ/
+ - https://css-tricks.com/absolute-positioning-inside-relative-positioning/
+ - https://css-tricks.com/controlling-css-animations-transitions-javascript/
+ - https://forum.jquery.com/topic/jquery-how-to-avoid-throbbing-hover-actions
+ - https://api.jquery.com/child-selector/
+ - https://css-tricks.com/almanac/properties/t/transform/
+ - http://stackoverflow.com/questions/11750862/is-there-a-way-to-create-a-link-to-the-top-of-the-page-without-using-anchors
+ - https://css-tricks.com/absolute-relative-fixed-positioining-how-do-they-differ/
+ - 
+
+
+For Inspiration: 
+ - http://www.awwwards.com/websites/trend/
+ - http://99designs.com/designer-blog/2015/01/16/top-web-design-trends-2015/
+ - http://maaemo.no/
+ - https://codemyviews.com/blog/15-tips-for-creating-a-great-website-footer
+ - https://color.adobe.com/create/color-wheel/?copy=true&base=2&rule=Custom&selected=4&name=Copy%20of%20Sea%20Wolf&mode=rgb&rgbvalues=0.792156862745098,0,0,1,1,1,0.45098039215686275,0.4588235294117647,0.47058823529411764,0.16862745098039217,0.16862745098039217,0.16862745098039217,0.11764705882352941,0.11764705882352941,0.12549019607843137&swatchOrder=0,1,2,3,4
+ - http://maxsteffen.com/moods/
+ - http://bvd.se/
+ - http://www.awwwards.com/100-greatest-free-fonts-collection.html
+ - http://tobiasahlin.com/blog/
+ - http://getpoole.com/
+ - http://stackoverflow.com/questions/406192/get-current-url-in-javascript
+ - 

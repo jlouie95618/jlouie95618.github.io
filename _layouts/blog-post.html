@@ -1,0 +1,16 @@
+---
+layout: blog-page
+---
+
+<div class="post wrapper blog">
+
+  <header class="post-header blog">
+    <h1 class="post-title blog">{{ page.title }}</h1>
+    <p class="post-meta blog">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+  </header>
+
+  <article class="post-content blog">
+    {{ content }}
+  </article>
+
+</div>
