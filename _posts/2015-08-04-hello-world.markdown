@@ -3,6 +3,7 @@ layout: blog-post
 title:  "Hello World!"
 date:   2015-08-04 00:19:00
 categories: blog
+id: hello-world
 ---
 I guess this is the first post of my blog. To be honest, I don't really know where to start. Maybe it would be best if I started with an outline or something to help lay down some goals/ideas that I'd like to keep in mind while I do my best to maintain this blog.
 

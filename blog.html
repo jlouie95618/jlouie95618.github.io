@@ -5,38 +5,7 @@ uppercase-title: BLOG
 permalink: /blog/
 ---
 <!-- John Louie's Personal Website -->
-<div class="sidebar blog">
-	<div class="button sidebar-close hvr-grow">
-		<i class="ion-close"></i>
-		<!-- <span class="menu-horizontal-bar top"></span> -->
-		<!-- <span class="menu-horizontal-bar bottom"></span> -->
-	</div>
-
-	<div class="option">
-		<span class="hvr-underline-from-left menu hvr-grow">
-			<a href="{{ site.baseurl }}">HOME</a>
-		</span>
-	</div>
-
-    {% for tab in site.pages %}
-        {% if tab.uppercase-title %}
-            <div class="option">
-				<span class="hvr-underline-from-left menu hvr-grow">
-	            	<a href="{{ tab.url | prepend: site.baseurl }}">
-	            		{{ tab.uppercase-title }}
-	            	</a>
-				</span>
-            </div>
-        {% endif %}
-    {% endfor %}
-
-</div>
-<div class="button sidebar-open">
-	<i class="ion-navicon"></i>
-	<!-- <span class="menu-horizontal-bar"></span> -->
-	<!-- <span class="menu-horizontal-bar"></span> -->
-	<!-- <span class="menu-horizontal-bar"></span> -->
-</div>
+{% include blog-sidebar.html %}
 <div class="content wrapper blog">
 	<div class="page-header blog">
 		<h1 class="page-title blog">

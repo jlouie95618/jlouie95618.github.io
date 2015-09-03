@@ -143,7 +143,8 @@ function homepageIntro() {
 
 function splashMessage() {
     $('.homepage.splash-message').typed({
-        strings: ['Who am I?<br> ^1000 Student. ^900 Teacher. ^900 Developer.'],
+        strings: ['John Louie ^1000 <br> Student. ^900 Teacher. ^900 Developer.'],
+        typeSpeed: 29,
         startDelay: 500,
         showCursor: false,
         callback: function() {
