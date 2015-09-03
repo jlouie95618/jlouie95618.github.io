@@ -1,0 +1,123 @@
+.ion-close.homepage {
+    display: inline-block;
+    position: fixed;
+    left: 15px;
+    top: 6px;
+}
+
+.homepage.who-am-i {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 39px;
+}
+
+.homepage.splash-message {
+    white-space: pre;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -webkit-transition: -webkit-transform 1s ease-in;
+    text-align: center;
+    font-size: 39px;
+}
+
+.homepage.overlay {
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    background-color: black;
+    text-align: center;
+    font-size: 29px;
+}
+
+.homepage.opening-message {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+}
+
+.homepage.me {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    left: 150%;
+}
+
+.wrapper.footer.homepage {
+
+}
+.wrapper.header.homepage {
+    // padding-right: 9px;
+    padding-top: 2px;
+    padding-left: 19px;
+    // padding: $spacing-unit / 2;
+}
+
+// .wrapper.header {
+//     padding: $spacing-unit / 2;
+// }
+
+.site-header.homepage {
+    background-color: transparent;
+}
+
+.nav-tab.homepage {
+    padding-top: 8px;
+}
+
+.trigger.homepage {
+    line-height: 53px;
+}
+
+.site-title.homepage {
+    // border: 2px solid #A9A9A9;
+    // padding-left: .5%;
+    // padding-right: .5%;
+    // line-height: 43px;
+    line-height: 29px;
+    margin: 5px;
+    padding: 4px;
+    border: 2px solid #A9A9A9;
+    &:hover {
+        border: 2px solid white;
+    }
+}
+
+// .site-title {
+//     border: 2px solid #A9A9A9;
+//     padding-left: .5%;
+//     padding-right: .5%;
+//     line-height: 43px;
+// }
+
+.site-footer.homepage {
+    display: none;
+}
+
+body.homepage {
+    // background: url("../attachments/images/7022460561_6b485b4d3e_z.jpg") no-repeat center center fixed; 
+    -webkit-transition: background-image 1s ease-in-out;
+    transition: background-image 1s ease-in-out;    
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.page.homepage {
+    background-color: rgba(0, 0, 0, 0.7);;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}

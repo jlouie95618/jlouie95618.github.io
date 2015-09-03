@@ -1,8 +1,15 @@
 <!DOCTYPE html>
 <html>
     {% include head.html %}
-    <body>
-        <div class="page">
+    <body {% if page.homepage == site.title %} class="homepage" {% endif %}>
+        {% if page.homepage == site.title %}
+            <!-- <div class="homepage overlay"> -->
+                <!-- <i class="ion-close homepage"></i> -->
+                <!-- <div class="homepage opening-message"></div> -->
+                <!-- <img class="homepage me" src="../attachments/images/me.jpg" alt="ME!"> -->
+            <!-- </div> -->
+        {% endif %}
+        <div class="page {% if page.homepage == site.title %}homepage{% endif %}">
             {% include header.html %}
             {{ content }}
             {% include footer.html %}

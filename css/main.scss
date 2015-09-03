@@ -55,10 +55,11 @@ $base-font-weight: 300;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-        "base",
-        "layout",
-        "blog",
         "about_me",
+        "base",
+        "blog",
+        "homepage",
+        "layout",
         "photos",
         "syntax-highlighting"
 ;

@@ -8,38 +8,24 @@ permalink: /photos/
 <div class="content">
     <div>
         <h1 class="photos title">Albums</h1>
+        <img class="album stylized-l-under-title" src="../j.png" alt="stylized L">
+        <p class="photos preamble">Here are a few albums that highlight some of my very favorite photographs. All photos are owned and taken by me, unless otherwise noted.</p>
     </div>
     <div class="albums">
-        <div class="album-cover hvr-grow">
-            <div class="album-description">
-                <p> asdfdsasdfds asdfds asdf asdf</p>
-            </div>
-            <img class="album" src="../attachments/images/7022460561_6b485b4d3e_z.jpg" alt="Dirt Path 2">
-        </div>
-        <div class="album-cover hvr-grow">
-            <img class="album" src="../attachments/images/7022460561_6b485b4d3e_z.jpg" alt="Dirt Path 2">
-        </div>
-        <div class="album-cover hvr-grow">
-            <img class="album" src="../attachments/images/7022460561_6b485b4d3e_z.jpg" alt="Dirt Path 2">
-        </div>
-        <div class="album-cover hvr-grow">
-            <img class="album" src="../attachments/images/6876355624_a6c0a3e372_z.jpg" alt="Dirt Path">
-        </div>
-        <div class="album-cover hvr-grow">
-            <img class="album" src="../attachments/images/6876355624_a6c0a3e372_z.jpg" alt="Dirt Path">
-        </div>
-        <div class="album-cover hvr-grow">
-            <img class="album" src="../attachments/images/6876355624_a6c0a3e372_z.jpg" alt="Dirt Path">
-        </div>
-        <div class="album-cover hvr-grow">
-            <img class="album" src="../attachments/images/6876355624_a6c0a3e372_z.jpg" alt="Dirt Path">
-        </div>
-        <div class="album-cover hvr-grow">
-            <img class="album" src="../attachments/images/6876355624_a6c0a3e372_z.jpg" alt="Dirt Path">
-        </div>
-        <div class="album-cover hvr-grow">
-            <img class="album" src="../attachments/images/7022460561_6b485b4d3e_z.jpg" alt="Dirt Path 2">
-        </div>        
+
+        {% for post in site.categories.albums %}
+            <a href="{{ post.album-link }}">
+                <div class="album-cover hvr-grow">
+                    <div class="album overlay"></div>
+                    <div class="album-description">
+                        <h3>{{ post.title }}</h3>
+                        <p>{{ post.description }}</p>
+                    </div>
+                    <img class="album" src="{{ post.cover-src }}" alt="{{ post.cover-alt }}">
+                </div>
+            </a>
+        {% endfor %}
+
     </div>
 
 </div>

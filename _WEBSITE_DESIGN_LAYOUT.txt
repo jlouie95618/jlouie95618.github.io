@@ -314,6 +314,7 @@ Sites/Sources:
  - https://css-tricks.com/almanac/properties/t/transform/
  - http://stackoverflow.com/questions/11750862/is-there-a-way-to-create-a-link-to-the-top-of-the-page-without-using-anchors
  - https://css-tricks.com/absolute-relative-fixed-positioining-how-do-they-differ/
+ - http://stackoverflow.com/questions/7302824/animating-addclass-removeclass-with-jquery
  - 
 
 

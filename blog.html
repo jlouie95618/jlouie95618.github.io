@@ -7,8 +7,9 @@ permalink: /blog/
 <!-- John Louie's Personal Website -->
 <div class="sidebar blog">
 	<div class="button sidebar-close hvr-grow">
-		<span class="menu-horizontal-bar top"></span>
-		<span class="menu-horizontal-bar bottom"></span>
+		<i class="ion-close"></i>
+		<!-- <span class="menu-horizontal-bar top"></span> -->
+		<!-- <span class="menu-horizontal-bar bottom"></span> -->
 	</div>
 
 	<div class="option">
@@ -29,58 +30,19 @@ permalink: /blog/
         {% endif %}
     {% endfor %}
 
-
-	<!-- 
-	<div class="option">
-		<span class="hvr-underline-from-left menu hvr-grow">
-			<a href="{{ prepend: site.baseurl }}">HOME</a>
-		</span>
-	</div>
-	<div class="option">
-		<span class="hvr-underline-from-left menu hvr-grow">
-			<a href="{{ prepend: site.baseurl }}/about-me/">ABOUT ME</a>
-		</span>
-	</div>
-	<div class="option">
-		<span class="hvr-underline-from-left menu hvr-grow">
-			<a href="{{ prepend: site.baseurl }}/code/">CODE</a>
-		</span>
-	</div>
-	<div class="option">
-		<span class="hvr-underline-from-left menu hvr-grow">
-			<a href="{{ prepend: site.baseurl }}/music/">MUSIC</a>
-		</span>
-	</div>
-	<div class="option">
-		<span class="hvr-underline-from-left menu hvr-grow">
-			<a href="{{ prepend: site.baseurl }}/photo/">PHOTO</a>
-		</span>
-	</div>
-	<div class="option">
-		<span class="hvr-underline-from-left menu hvr-grow">
-			<a href="{{ prepend: site.baseurl }}/projects/">PROJECTS</a>
-		</span>
-	</div>
-	<div class="option">
-		<span class="hvr-underline-from-left menu hvr-grow">
-			<a href="{{ prepend: site.baseurl }}/tutoring/">TUTORING</a>
-		</span>
-	</div>
-	<div class="option">
-		<span class="hvr-underline-from-left menu hvr-grow">
-			<a href="{{ prepend: site.baseurl }}">OPTION 8</a>
-		</span>
-	</div> -->		
 </div>
 <div class="button sidebar-open">
-	<span class="menu-horizontal-bar"></span>
-	<span class="menu-horizontal-bar"></span>
-	<span class="menu-horizontal-bar"></span>
+	<i class="ion-navicon"></i>
+	<!-- <span class="menu-horizontal-bar"></span> -->
+	<!-- <span class="menu-horizontal-bar"></span> -->
+	<!-- <span class="menu-horizontal-bar"></span> -->
 </div>
 <div class="content wrapper blog">
 	<div class="page-header blog">
-		<h1 class="page-title blog">ASdfgasdf asdfw</h1>
-		<img class="stylized-l-under-title" src="../j.png" alt="stylized L">
+		<h1 class="page-title blog">
+			Analog Mind
+		</h1>
+		<img class="blog stylized-l-under-title" src="../j.png" alt="stylized L">
 		<div class="blog-dropdown">	
 			<h3 class="blog-archive">
 				<a href="#">
@@ -101,7 +63,7 @@ permalink: /blog/
 	</div>
 
 	<ul class="post-list blog">
-		{% for post in site.posts %}
+		{% for post in site.categories.blog %}
 			<li>
 				<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 				<h2>

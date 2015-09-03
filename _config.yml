@@ -2,13 +2,18 @@
 title: John Louie
 email: jwlouie@stanford.edu
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Hi! My name is John, and I spend my free time either creating things
+  on the computer, reading, listening to music, or learning as much as I can.
+  I hope that this website helps to share with you some of my hobbies, creations,
+  and journeys to discover and learn all that I can about the world around me.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://jlouie95618.github.io" # the base hostname & protocol for your site
 twitter_username: jwlouie19
 github_username:  jlouie95618
+phone: 1.530.902.8214
+address: >
+  P.O. Box 17053 <br>
+  Stanford, CA 94309 
 
 # Build settings
 markdown: kramdown
