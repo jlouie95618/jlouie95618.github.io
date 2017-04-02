@@ -8,7 +8,7 @@ Firstly, I'm hoping that this website will be a place for me to freely write abo
 
 Secondly, I'm hoping that this website can be a place of reference for individuals who share similar interests. I will strive to maintain a healthy abundance of citations. Additionally, as I learn things (and hopefully document my learning), I hope others can contribute to that process as well.
 
-I'm hoping that the variety of topics I discuss/write about here has no limits, but here is a brief list of topics that I hope to learn/talk about at some point:
+I'm hoping that the variety of topics I discuss/write about here has no limits, but here is a brief list of topics that I hope to learn/talk about at some point...:
 
 - Computer science
 - Human biology

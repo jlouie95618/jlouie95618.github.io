@@ -1,6 +1,7 @@
 ---
 title: Reflections as a CS 107 Course Assistant
 tags: [stanford, reflections]
+slug: reflections-as-a-cs-107-course-assistant
 ---
 
 After finishing my third quarter as a [CS 107](https://cs107.stanford.edu) course assistant (CA), I felt it would be appropriate to reflect upon my experiences and opportunities as a CA. I consider myself wonderfully fortunate to be a part of the CS 107 teaching staff and would like to detail my journey up to this point.
@@ -24,7 +25,7 @@ The course in its current iteration/form consists of lectures, lab sections (one
 
 ## What's the big deal with CS 107?
 
-First of all, it's probably somewhat important to explain what kind of course CS 107 is considered to be within the Stanford University community. For most computer science majors at Stanford, CS 107 is considered one of the largest early hurtles in the Stanford CS core curriculum. One of the reasons I believe this course is difficult for a large proportion students who take it is that the class requires students 1) demonstrate a strong understanding of programming fundamentals and are able to apply those skills to the assignments and 2) are capable of quickly learn new concepts/ideas.
+First of all, it's probably somewhat important to explain what _kind_ of course CS 107 is considered to be within the Stanford University community. For most computer science majors at Stanford, CS 107 is considered one of the largest and earliest hurtles in the Stanford CS core curriculum. One of the reasons I believe this course is difficult for a fair proportion of students who take it is that the class requires students 1) demonstrate a strong understanding of programming fundamentals and are able to apply those skills to the assignments and 2) are capable of quickly adapting to a new learn new concepts/ideas.
 
 Ideally students would come into the course possessing both of these abilities, but often times, students have a rough mix of the two (sometimes students are great at programming, sometimes students are able to learn the new systems concepts).
 
