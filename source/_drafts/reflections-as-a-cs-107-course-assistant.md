@@ -30,3 +30,5 @@ First of all, it's probably somewhat important to explain what _kind_ of course 
 Ideally students would come into the course possessing both of these abilities, but often times, students have a rough mix of the two (sometimes students are great at programming, sometimes students are able to learn the new systems concepts).
 
 It is my job as a CA to help assist students in getting through these particular hurtles by providing assistance in the form of office hours, labs and feedback in grading assignments. 
+
+## From student to course assistant

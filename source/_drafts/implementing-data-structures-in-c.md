@@ -26,17 +26,27 @@ So interestingly enough, I had never written a `Makefile` before now. The `Makef
 
 ### The Basics
 
-A `Makefile` consists of a 
+Simply put, a `Makefile` consists of a series of _rules_ which consists of three parts:
+
+1. the _target_: The target 
+2. _prerequisites_:
+3. a _recipe_:
+
+
+
+### Creating a C library (code archive)
+
+
 
 ### References
 
-1. [Guide](https://web.stanford.edu/class/archive/cs/cs107/cs107.1174/guide_make.html) provided on the CS 107 website
+1. [Make guide](https://web.stanford.edu/class/archive/cs/cs107/cs107.1174/guide_make.html) provided on the CS 107 website
 2. Managing Projects with GNU Make, 3rd Edition
 3. [GNU Make](https://www.gnu.org/software/make/manual/make.html)
 
 ## Use of `void *`
 
-As in the class CS 107, I'll be using a `void *` approach to provide a "generic" data structure interface. I elected to use this approach (rather than some trick with the preprocessor or to use a macro helper function) primarily because I am familiar with writing generic interfaces. Additionally, I would say that it's worth understanding how `void *`'s can be used within the context of generic interfaces as well as generic functions (think of `qsort` or `bsearch`). 
+As in the class CS 107, I'll be using a `void *` approach to provide a "generic" data structure interface. I elected to use this approach (rather than some trick with the preprocessor or to use a macro helper function) primarily because I am familiar with writing generic interfaces. Additionally, I would say that it's worth understanding how `void *`'s can be used within the context of generic interfaces as well as generic functions (think of `qsort` or `bsearch`).
 
 As for another possible implementation, I'll think about trying to the "generic" interface with the use of a macro helper function (much like how Pintos achieves generic data structures).
 
@@ -46,13 +56,12 @@ It is also worth going over caveats behind using a `void *` approach.
 
 1. A lack of type safety when using `void *`'s
 
-    Hello
-
-    hello
-
-    HELLO
 2. 
 
 ### References
+
+## General References
+
+1. GNU reference for ["variable-length" arrays](https://gcc.gnu.org/onlinedocs/gcc/Zero-Length.html) (really zero-length arrays)
 
 
