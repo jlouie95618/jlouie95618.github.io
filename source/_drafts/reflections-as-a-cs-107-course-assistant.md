@@ -23,7 +23,7 @@ CS 107 is Stanford University's introductory systems course and continuation of 
 
 The course in its current iteration/form consists of lectures, lab sections (one of which I lead as a CA) for students to get more hands on experience with the course material, six difficult programming assignments and three exams (two of which are midterms).
 
-## What's the big deal with CS 107?
+## Why CS 107?
 
 First of all, it's probably somewhat important to explain what _kind_ of course CS 107 is considered to be within the Stanford University community. For most computer science majors at Stanford, CS 107 is considered one of the largest and earliest hurtles in the Stanford CS core curriculum. One of the reasons I believe this course is difficult for a fair proportion of students who take it is that the class requires students 1) demonstrate a strong understanding of programming fundamentals and are able to apply those skills to the assignments and 2) are capable of quickly adapting to a new learn new concepts/ideas.
 
