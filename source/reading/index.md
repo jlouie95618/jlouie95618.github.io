@@ -17,7 +17,3 @@ Here is a list of books that I've read and recommend (along with an associated p
 - [Patriotism]() by Yukio Mishima 
 - [The God of Small Things]() by Arundhati Roy
 - [The Crucible]() by Arthur Miller
-
-[//]: # (Actually, use the following syntax:)
-[//]: # ({% post_link his-dark-materials His Dark Materials %})
-[//]: # (source: https://github.com/hexojs/hexo/wiki/Breaking-Changes-in-Hexo-3.0#render-pipeline-changed)
