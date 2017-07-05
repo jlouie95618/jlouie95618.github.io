@@ -18,11 +18,6 @@ Here is a list of books that I've read and recommend (along with an associated p
 - [The God of Small Things]() by Arundhati Roy
 - [The Crucible]() by Arthur Miller
 
-
-[//]: # (To link the book titles provided above, we need to do something like this:)
-[//]: # (<a href="{% post_path his-dark-materials %}">His Dark Materials</a>)
-[//]: # (Unfortunately, the markdown linking syntax doesn't work with the {% post_path slug %} syntax)
-
 [//]: # (Actually, use the following syntax:)
 [//]: # ({% post_link his-dark-materials His Dark Materials %})
 [//]: # (source: https://github.com/hexojs/hexo/wiki/Breaking-Changes-in-Hexo-3.0#render-pipeline-changed)
