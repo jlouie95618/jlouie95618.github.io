@@ -1,4 +1,0 @@
----
-title: On Programming
-tags:
----
